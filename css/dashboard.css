@@ -195,7 +195,7 @@ body .container .wrapper .main_board .cards_body p {
   margin-top: 20px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 780px) {
   body .container header {
     position: fixed;
     width: 100%;
@@ -214,6 +214,15 @@ body .container .wrapper .main_board .cards_body p {
   }
   body .container .wrapper .main_board {
     padding-left: 30%;
+  }
+  body .container .wrapper .main_board .cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  body .container .wrapper .main_board .cards_body {
+    width: 95%;
   }
 }
 /*# sourceMappingURL=dashboard.css.map */

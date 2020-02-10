@@ -160,7 +160,7 @@ body {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 780px) {
   body {
     .container {
       header {
@@ -181,6 +181,15 @@ body {
         }
         .main_board{
             padding-left: 30%;
+
+            .cards{
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+
+              &_body{
+                width: 95%;
+              }
+            }
         }
       }
     }
