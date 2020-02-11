@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard || Codac.ng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/students.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <header>
+                <i class="fa fa-bars"></i>
+                <h1>Administrator</h1>
+                <nav>
+                    <a href="setting.html"><img src="./images/user.png" alt="dp"></a>
+                    <a href="#"> <i class="fas fa-sign-out-alt"></i> </a>
+
+                </nav>
+            </header>
+            <section class="wrapper">
+                <section class="sidebar" id="sidebar">
+                    <div class="admin_info">
+                        <img src="./images/user.png" alt="admin image">
+                        <p>Phileo Maner</p>
+                        <p>Super Admin</p>
+                    </div>
+                    <div class="sidebar_menu">
+                        <ul>
+                            <li><a href="index.html"> <i class="fas fa-chart-line"></i> Dashboard </a>
+                            </li>
+                            <li ><a href="students.html"> <i class="fa fa-user-graduate"></i>
+                                    Students </a></li>
+                            <li class="active_menu"><a href="tutors.html"> <i class="fas fa-chalkboard-teacher"></i> Tutors </a></li>
+                            <li><a href="admins.html"> <i class="fas fa-chalkboard-teacher"></i>
+                                Admins </a></li>
+                            <li><a href="setting.html"> <i class="fa fa-cogs"></i> Profile </a>
+                            </li>
+                            <li><a href="change-password.html"> <i class="fa fa-key"></i> Change Password
+                                </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="main_board">
+                    <!-- <section>Hello world</section> -->
+                    <section class="table">
+                        <h3>Tutors Information</h3>
+                        <div class="table_container">
+                            <table id="table">
+                                <tbody>
+                                    <tr>
+                                        <th>S/N</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Phone Number</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+        </section>
+
+    </main>
+</body>
+<script src="./js/students.js"></script>
+
+</html>

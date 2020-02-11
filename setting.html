@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard || Codac.ng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/setting.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <header>
+                <i class="fa fa-bars"></i>
+                <h1>Administrator</h1>
+                <nav>
+                    <a href="setting.html"><img src="./images/user.png" alt="dp"></a>
+                    <a href="#"> <i class="fas fa-sign-out-alt"></i> </a>
+
+                </nav>
+            </header>
+            <section class="wrapper">
+                <section class="sidebar" id="sidebar">
+                    <div class="admin_info">
+                        <img src="./images/user.png" alt="admin image">
+                        <p>Phileo Maner</p>
+                        <p>Super Admin</p>
+                    </div>
+                    <div class="sidebar_menu">
+                        <ul>
+                            <li><a href="index.html"> <i class="fas fa-chart-line"></i> Dashboard </a>
+                            </li>
+                            <li><a href="students.html"> <i class="fa fa-user-graduate"></i> Students </a></li>
+                            <li><a href="tutors.html"> <i class="fas fa-chalkboard-teacher"></i> Tutors </a></li>
+                            <li><a href="admins.html"> <i class="fas fa-chalkboard-teacher"></i>
+                                Admins </a></li>
+                            <li class="active_menu"><a href="setting.html"> <i class="fa fa-cogs"></i> Profile </a>
+                            </li>
+                            <li><a href="change-password.html"> <i class="fa fa-key"></i> Change Password
+                                </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="main_board">
+                    <form action="">
+                        <h3>Update Your Profile</h3>
+                        <div class="form-group picture">
+                            <img src="./images/user.png" alt="admin image">
+                            <i class="fa fa-upload" id="upload"></i>
+                            <input type="file" name="picture" id="admin_pix">
+                        </div>
+                        <div class="form-group">
+                            <label for="fullname">Fullname:</label>
+                            <input type="text" name="fullname" value="Phileo Maner">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="text" name="email" value="example@emaple.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Home Address:</label>
+                            <input type="text" name="address" value="Jyk, Lekki Phase1,Lagos State">
+                        </div>
+                        <div class="form-group">
+                            <label for="role">DoB:</label>
+                            <input type="date" name="dob" value="20/05/1995">
+                        </div>
+                        <div class="form-group">
+                            <label for="role">Role:</label>
+                            <input type="text" name="role" value="Super Admin">
+                        </div>
+                        <div class="form-group">
+                            <label for="twitter">Twitter:</label>
+                            <input type="text" name="twitter" value="@Phileomanuel">
+                        </div>
+                        <div class="form-group">
+                            <label for="linkedin">LinkedIn:</label>
+                            <input type="text" name="linkedin" value="@Phileomanuel">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Gender:</label>
+                            <input type="radio" value="Male" name="gender">Male <br>
+                            <input type="radio" value="Female" name="gender">Female
+                        </div>
+                        <button>Update Profile</button>
+                    </form>
+                </section>
+            </section>
+        </section>
+        </section>
+
+    </main>
+</body>
+<script>
+    let uploadPix = document.getElementById("upload");
+    let inputpix = document.getElementById("admin_pix")
+    uploadPix.addEventListener("click", ()=>{
+       inputpix.style.width = "200px";
+       inputpix.style.visibility = "visible";
+    })
+</script>
+</html>
