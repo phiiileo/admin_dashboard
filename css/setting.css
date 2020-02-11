@@ -1,0 +1,89 @@
+form {
+  margin: 50px 0;
+  padding: 0 30px;
+}
+
+form h3 {
+  text-align: center;
+  padding: 10px 0;
+  color: #87c925;
+}
+
+form .form-group {
+  margin: 20px auto;
+  width: 80%;
+}
+
+form .form-group label {
+  display: block;
+  font-size: 18px;
+  color: #3b580f;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form .form-group input {
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 1px solid #87c925;
+  border-radius: 5px;
+}
+
+form .form-group input[type="radio"] {
+  width: auto;
+  margin-right: 20px;
+}
+
+form .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form .picture img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+form .picture i {
+  color: #3b580f;
+  cursor: pointer;
+}
+
+form .picture i:hover {
+  color: #87c925;
+}
+
+form .picture #admin_pix {
+  width: 0;
+  visibility: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+  background-color: #87c925;
+  color: #3b580f;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #87c925;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+form button:hover {
+  background-color: transparent;
+}
+/*# sourceMappingURL=setting.css.map */

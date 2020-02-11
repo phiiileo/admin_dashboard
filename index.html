@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/dashboard.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
 
@@ -16,12 +17,13 @@
     <main>
         <section class="container">
             <header>
-             <h1>Administrator</h1>
-             <nav>
-                 <a href="#"><img src="./images/user.png" alt="dp"></a>
-                 <a href="#"> <i class="fa fa-sign-out"></i> </a>
+                <i class="fa fa-bars"></i>
+                <h1>Administrator</h1>
+                <nav>
+                    <a href="setting.html"><img src="./images/user.png" alt="dp"></a>
+                    <a href="#"> <i class="fas fa-sign-out-alt"></i> </a>
 
-             </nav>
+                </nav>
             </header>
             <section class="wrapper">
                 <section class="sidebar" id="sidebar">
@@ -32,12 +34,14 @@
                     </div>
                     <div class="sidebar_menu">
                         <ul>
-                            <li><a href="#"> <i class="fa fa-dashboard"></i> Dashboard </a>
+                            <li class="active_menu"><a href="#"> <i class="fas fa-chart-line"></i> Dashboard </a>
                             </li>
-                            <li><a href="#"> <i class="fa fa-history"></i> Students </a></li>
-                            <li><a href="#"> <i class="fa fa-history"></i> Tutors </a></li>
-                            <li><a href="#"> <i class="fa fa-cogs"></i> Settings </a></li>
-                            <li><a href="#"> <i class="fa fa-key"></i> Change Password
+                            <li><a href="students.html"> <i class="fa fa-user-graduate"></i> Students </a></li>
+                            <li><a href="tutors.html"> <i class="fas fa-chalkboard-teacher"></i> Tutors </a></li>
+                            <li><a href="admins.html"> <i class="fas fa-chalkboard-teacher"></i>
+                                Admins </a></li>
+                            <li><a href="setting.html"> <i class="fa fa-cogs"></i> Profile </a></li>
+                            <li><a href="change-password.html"> <i class="fa fa-key"></i> Change Password
                                 </a></li>
                         </ul>
                     </div>
@@ -51,22 +55,22 @@
                     </section>
                     <section class="cards">
                         <div class="cards_body">
-                            <i class="fa fa-user"></i>
+                            <a href="#"><i class="fa fa-user-graduate"></i></a>
                             <span>70</span>
                             <p>Registered Students</p>
                         </div>
                         <div class="cards_body">
-                            <i class="fa fa-user"></i>
+                            <a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
                             <span>7</span>
                             <p>Registered Tutors</p>
                         </div>
                         <div class="cards_body">
-                            <i class="fa fa-user"></i>
+                            <a href="#"><i class="fab fa-discourse"></i></a>
                             <span>16</span>
                             <p>Available Courses</p>
                         </div>
                         <div class="cards_body">
-                            <i class="fa fa-user"></i>
+                            <a href="#"><i class="fas fa-users-cog"></i></a>
                             <span>3</span>
                             <p>Registered Admins</p>
                         </div>
