@@ -10,8 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="css/dashboard.css">
-    <link rel="stylesheet" href="css/students.css">
-
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 
 <body>
@@ -37,36 +36,36 @@
                         <ul>
                             <li><a href="index.html"> <i class="fas fa-chart-line"></i> Dashboard </a>
                             </li>
-                            <li class="active_menu"><a href="students.html"> <i class="fa fa-user-graduate"></i>
-                                    Students </a></li>
+                            <li><a href="students.html"> <i class="fa fa-user-graduate"></i> Students </a></li>
                             <li><a href="tutors.html"> <i class="fas fa-chalkboard-teacher"></i> Tutors </a></li>
                             <li><a href="admins.html"> <i class="fas fa-chalkboard-teacher"></i>
-                                Admins </a></li>
-
-                            <li><a href="profile.html"> <i class="fa fa-cogs"></i> Profile </a>
-                            </li>
-                            <li><a href="change-password.html"> <i class="fa fa-key"></i> Change Password
+                                    Admins </a></li>
+                            <li class="active_menu"><a href="profile.html"> <i class="fa fa-cogs"></i> Profile </a></li>
+                            <li><a href="change-password.html"> <i class="fa fa-key"></i> Change
+                                    Password
                                 </a></li>
                         </ul>
                     </div>
                 </section>
                 <section class="main_board">
-                    <!-- <section>Hello world</section> -->
-                    <section class="table">
-                        <h3>Students Information</h3>
-                        <div class="table_container">
-                            <table id="table">
-                                <tbody>
-                                    <tr>
-                                        <th>S/N</th>
-                                        <th>Name</th>
-                                        <th>Email</th>
-                                        <th>Phone Number</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <section class="admin_profile_container">
+                        <h3>Profile Details</h3>
+                        <div class="admin_profile">
+                            <div class="admin_profile_pix">
+                                <img src="./images/user.png" alt="Admin Picture">
+                            </div>
+                            <div class="admin_profile_details">
+                                <p><span>Name:</span><span>Phileo Maner</span></p>
+                                <p><span>Email Address:</span><span>example@example.com</span></p>
+                                <p><span>Home Address:</span><span>Jfk, Lekki Lagos Lagos</span></p>
+                                <p><span>Nationality:</span><span>Nigeria</span></p>
+                                <p><span>Gender:</span><span>Male</span></p>
+                                <p><span>Role:</span><span>Super Admin</span></p>
+                            </div>
+
                         </div>
+                        <a href="setting.html">Update Profile</a>
+
                     </section>
                 </section>
             </section>
@@ -75,6 +74,5 @@
 
     </main>
 </body>
-<script src="./js/students.js"></script>
 
 </html>
