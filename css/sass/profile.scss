@@ -4,6 +4,11 @@ $bg_color: rgb(59, 88, 15);
 // @media screen and (min-width: 780px) {
   .admin_profile_container {
       text-align: center;
+      border: 2px solid $bg_color;
+      min-width: 320px;
+      max-width: 700px;
+      margin: 30px auto;
+      box-shadow: 5px 5px 5px $brand_color;
     h3 {
       text-align: center;
       color: $brand_color;

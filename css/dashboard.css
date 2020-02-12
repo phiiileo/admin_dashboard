@@ -23,10 +23,12 @@ body .container header {
           justify-content: space-between;
 }
 
-body .container header i.fa-bars {
+body .container header i#menu {
   margin-right: 20px;
   cursor: pointer;
   font-size: 22px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 body .container header i:hover {
@@ -81,6 +83,8 @@ body .container .wrapper .sidebar {
   position: absolute;
   left: -300px;
   z-index: 1;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 body .container .wrapper .sidebar .admin_info {
@@ -108,7 +112,7 @@ body .container .wrapper .sidebar_menu ul {
 }
 
 body .container .wrapper .sidebar_menu ul li {
-  padding: 10px 0;
+  border: 1px solid transparent;
 }
 
 body .container .wrapper .sidebar_menu ul li a {
@@ -116,10 +120,11 @@ body .container .wrapper .sidebar_menu ul li a {
   display: block;
   width: 100%;
   height: 100%;
+  padding: 10px;
 }
 
 body .container .wrapper .sidebar_menu ul li a i {
-  padding-right: 20px;
+  padding-right: 15px;
 }
 
 body .container .wrapper .sidebar_menu ul li:hover, body .container .wrapper .sidebar_menu ul .active_menu {
@@ -127,6 +132,8 @@ body .container .wrapper .sidebar_menu ul li:hover, body .container .wrapper .si
   padding-left: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  -webkit-box-shadow: 2px 2px 5px #87c925;
+          box-shadow: 2px 2px 5px #87c925;
 }
 
 body .container .wrapper .sidebar_menu ul li:hover a, body .container .wrapper .sidebar_menu ul .active_menu a {
@@ -228,7 +235,7 @@ body .container .wrapper .main_board .cards_body:hover {
     width: 100%;
     z-index: 5;
   }
-  body .container header i.fa-bars {
+  body .container header i#menu {
     display: none;
   }
   body .container .wrapper {
