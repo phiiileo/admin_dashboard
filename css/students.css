@@ -401,6 +401,6 @@ li:hover, .students-menu {
 }
 
 li:hover a, .students-menu a {
-  color: #87c925;
+  color: #87c925 !important;
 }
 /*# sourceMappingURL=students.css.map */

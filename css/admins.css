@@ -401,6 +401,6 @@ li:hover, .admins-menu {
 }
 
 li:hover a, .admins-menu a {
-  color: #87c925;
+  color: #87c925 !important;
 }
 /*# sourceMappingURL=admins.css.map */

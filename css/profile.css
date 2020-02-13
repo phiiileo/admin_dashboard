@@ -369,6 +369,6 @@ li:hover, .profile-menu {
 }
 
 li:hover a, .profile-menu a {
-  color: #87c925;
+  color: #87c925 !important;
 }
 /*# sourceMappingURL=profile.css.map */

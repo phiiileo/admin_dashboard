@@ -8,6 +8,6 @@ li:hover, .admins-menu {
   box-shadow: 2px 2px 5px $brand_color;
 
   a {
-    color: $brand_color;
-  }
+    color: $brand_color !important;
+}
 }

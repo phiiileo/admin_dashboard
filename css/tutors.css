@@ -401,6 +401,6 @@ li:hover, .tutors-menu {
 }
 
 li:hover a, .tutors-menu a {
-  color: #87c925;
+  color: #87c925 !important;
 }
 /*# sourceMappingURL=tutors.css.map */

@@ -392,6 +392,6 @@ li:hover, .setting-menu {
 }
 
 li:hover a, .setting-menu a {
-  color: #87c925;
+  color: #87c925 !important;
 }
 /*# sourceMappingURL=setting.css.map */

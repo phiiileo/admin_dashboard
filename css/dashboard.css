@@ -303,6 +303,6 @@ li:hover, .dashboard-menu {
 }
 
 li:hover a, .dashboard-menu a {
-  color: #87c925;
+  color: #87c925 !important;
 }
 /*# sourceMappingURL=dashboard.css.map */
