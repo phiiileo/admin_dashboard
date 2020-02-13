@@ -1,4 +1,4 @@
-li:hover, .students-menu {
+li:hover, .admins-menu {
   border: 1px solid #87c925;
   padding-left: 20px;
   -webkit-transition: all 0.5s;
@@ -7,7 +7,7 @@ li:hover, .students-menu {
           box-shadow: 2px 2px 5px #87c925;
 }
 
-li:hover a, .students-menu a {
+li:hover a, .admins-menu a {
   color: #87c925;
 }
 /*# sourceMappingURL=admins.css.map */
