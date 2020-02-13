@@ -10,18 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="css/students.css">
-    <style>
-         li:hover, .students-menu {
-          border: 1px solid rgb(135, 201, 37);;
-          padding-left: 20px;
-          transition: all 0.5s;
-          box-shadow: 2px 2px 5px rgb(59, 88, 15);
-
-          a {
-            color: rgb(135, 201, 37) ;
-          }
-        }
-    </style>
 </head>
 
 <body>
