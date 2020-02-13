@@ -47,7 +47,7 @@
             }
           }
         }
-        li:hover, .active_menu {
+        li:hover, .dashboard-menu {
           border: 1px solid $brand_color;
           padding-left: 20px;
           transition: all 0.5s;
@@ -60,7 +60,7 @@
       }
     }
   }
-  
+
 @media screen and (min-width: 780px) {
   .sidebar {
     position: fixed;

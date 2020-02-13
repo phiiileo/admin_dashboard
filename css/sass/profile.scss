@@ -60,4 +60,14 @@ $bg_color: rgb(59, 88, 15);
         border: 1px solid $bg_color;
     }
   }
-// }
+
+  li:hover, .profile-menu {
+    border: 1px solid $brand_color;
+    padding-left: 20px;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px $brand_color;
+
+    a {
+      color: $brand_color;
+    }
+  }

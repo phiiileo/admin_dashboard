@@ -157,7 +157,7 @@ body .container .wrapper .sidebar_menu ul li a i {
   padding-right: 15px;
 }
 
-body .container .wrapper .sidebar_menu ul li:hover, body .container .wrapper .sidebar_menu ul .active_menu {
+body .container .wrapper .sidebar_menu ul li:hover, body .container .wrapper .sidebar_menu ul .dashboard-menu {
   border: 1px solid #87c925;
   padding-left: 20px;
   -webkit-transition: all 0.5s;
@@ -166,7 +166,7 @@ body .container .wrapper .sidebar_menu ul li:hover, body .container .wrapper .si
           box-shadow: 2px 2px 5px #87c925;
 }
 
-body .container .wrapper .sidebar_menu ul li:hover a, body .container .wrapper .sidebar_menu ul .active_menu a {
+body .container .wrapper .sidebar_menu ul li:hover a, body .container .wrapper .sidebar_menu ul .dashboard-menu a {
   color: #87c925;
 }
 

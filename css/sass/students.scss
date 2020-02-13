@@ -83,6 +83,17 @@ body {
 }
 @media screen and (min-width: 992px) {
   .table_container {
-    width: 900px !important;
+    width: 100% !important;
+  }
+}
+
+li:hover, .students-menu {
+  border: 1px solid $brand_color;
+  padding-left: 20px;
+  transition: all 0.5s;
+  box-shadow: 2px 2px 5px $brand_color;
+
+  a {
+    color: $brand_color;
   }
 }
