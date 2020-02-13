@@ -9,8 +9,12 @@ a {
   text-decoration: none;
 }
 
-body .container header {
-  padding: 10px 5%;
+body {
+  background-color: #ebf1eb;
+}
+
+body .container #header {
+  padding: 5px 5%;
   background-color: #87c925;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,19 +27,24 @@ body .container header {
           justify-content: space-between;
 }
 
-body .container header i#menu {
+body .container #header h1 {
+  font-size: 20px;
+  color: #042c04;
+}
+
+body .container #header i#menu {
   margin-right: 20px;
   cursor: pointer;
   font-size: 22px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-body .container header i:hover {
+body .container #header i:hover {
   color: whitesmoke;
 }
 
-body .container header nav {
+body .container #header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,18 +61,29 @@ body .container header nav {
   padding: 10px;
 }
 
-body .container header nav img {
+body .container #header nav img {
   width: 30px;
   height: 30px;
   margin-right: 20px;
 }
 
-body .container header nav i {
+body .container #header nav i {
   color: black;
 }
 
-body .container header nav i:hover {
+body .container #header nav i:hover {
   color: whitesmoke;
+}
+
+@media screen and (min-width: 780px) {
+  body .container body .container header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+  }
+  body .container body .container header i#menu {
+    display: none;
+  }
 }
 
 body .container .wrapper {
@@ -89,16 +109,26 @@ body .container .wrapper .sidebar {
 
 body .container .wrapper .sidebar .admin_info {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #87c925;
   -webkit-box-shadow: 5px 5px 5px #87c925;
           box-shadow: 5px 5px 5px #87c925;
   padding: 20px 0;
   background-color: white;
+  border-radius: 5px;
 }
 
 body .container .wrapper .sidebar .admin_info img {
   width: 100px;
   height: 100px;
+}
+
+body .container .wrapper .sidebar .admin_info p {
+  color: #3b580f;
+  font-weight: bold;
+}
+
+body .container .wrapper .sidebar .admin_info p:last-child {
+  font-size: 15px;
 }
 
 body .container .wrapper .sidebar_menu {
@@ -138,6 +168,16 @@ body .container .wrapper .sidebar_menu ul li:hover, body .container .wrapper .si
 
 body .container .wrapper .sidebar_menu ul li:hover a, body .container .wrapper .sidebar_menu ul .active_menu a {
   color: #87c925;
+}
+
+@media screen and (min-width: 780px) {
+  body .container .wrapper .sidebar {
+    position: fixed;
+    left: 0;
+    width: 30%;
+    padding: 20px;
+    z-index: 0;
+  }
 }
 
 body .container .wrapper .main_board .intro {
@@ -190,7 +230,7 @@ body .container .wrapper .main_board .cards_body {
           justify-content: center;
   position: relative;
   text-align: center;
-  color: #87c925;
+  color: #3b580f;
   font-size: 25px;
 }
 
@@ -227,6 +267,8 @@ body .container .wrapper .main_board .cards_body p {
 
 body .container .wrapper .main_board .cards_body:hover {
   border-color: #87c925;
+  -webkit-box-shadow: 2px 2px 5px #87c925;
+          box-shadow: 2px 2px 5px #87c925;
 }
 
 @media screen and (min-width: 780px) {
@@ -239,7 +281,7 @@ body .container .wrapper .main_board .cards_body:hover {
     display: none;
   }
   body .container .wrapper {
-    padding-top: 70px;
+    padding-top: 60px;
     display: -ms-grid;
     display: grid;
   }
