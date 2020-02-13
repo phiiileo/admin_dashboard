@@ -1,5 +1,5 @@
-$brand_color: rgb(135, 201, 37);
-$bg_color: rgb(59, 88, 15);
+@import './dasboard-all';
+@import './dashboard-table';
 
 li:hover, .tutors-menu {
   border: 1px solid $brand_color;
