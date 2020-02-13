@@ -36,7 +36,7 @@
                             </div>
 
                         </div>
-                        <a href="setting.html">Update Profile</a>
+                        <a href="setting.php">Update Profile</a>
 
                     </section>
                 </section>
