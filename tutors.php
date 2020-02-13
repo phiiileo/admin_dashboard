@@ -22,7 +22,7 @@
             color: rgb(135, 201, 37) ;
           }
         }
-        </style>
+    </style>
 </head>
 
 <body>
