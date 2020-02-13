@@ -17,37 +17,9 @@
 <body>
     <main>
         <section class="container">
-            <header>
-                <i class="fa fa-bars" id="menu"></i>
-                <h1>Administrator</h1>
-                <nav>
-                    <a href="profile.html"><img src="./images/user.png" alt="dp"></a>
-                    <a href="#"> <i class="fas fa-sign-out-alt"></i> </a>
-
-                </nav>
-            </header>
+        <?php include_once "./dashboard-fragments/dashboard_header.php" ?>
             <section class="wrapper">
-                <section class="sidebar" id="sidebar">
-                    <div class="admin_info">
-                        <img src="./images/user.png" alt="admin image">
-                        <p>Phileo Maner</p>
-                        <p>Super Admin</p>
-                    </div>
-                    <div class="sidebar_menu">
-                        <ul>
-                            <li><a href="index.html"> <i class="fas fa-chart-line"></i> Dashboard </a>
-                            </li>
-                            <li><a href="students.html"> <i class="fa fa-user-graduate"></i> Students </a></li>
-                            <li><a href="tutors.html"> <i class="fas fa-chalkboard-teacher"></i> Tutors </a></li>
-                            <li><a href="admins.html"> <i class="fas fa-chalkboard-teacher"></i>
-                                Admins </a></li>
-                            <li class="active_menu"><a href="profile.html"> <i class="fa fa-cogs"></i> Profile </a>
-                            </li>
-                            <li><a href="change-password.html"> <i class="fa fa-key"></i> Change Password
-                                </a></li>
-                        </ul>
-                    </div>
-                </section>
+                <?php include_once "./dashboard-fragments/dashboard_sidebar.php" ?>
                 <section class="main_board">
                     <form action="">
                         <h3>Update Your Profile</h3>

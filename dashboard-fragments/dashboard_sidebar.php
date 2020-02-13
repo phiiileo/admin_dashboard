@@ -8,12 +8,12 @@
                         <ul>
                             <li class="active_menu"><a href="#"> <i class="fas fa-chart-line"></i> Dashboard </a>
                             </li>
-                            <li><a href="students.html"> <i class="fa fa-user-graduate"></i> Students </a></li>
-                            <li><a href="tutors.html"> <i class="fas fa-chalkboard-teacher"></i> Tutors </a></li>
-                            <li><a href="admins.html"> <i class="fas fa-chalkboard-teacher"></i>
+                            <li><a href="students.php"> <i class="fa fa-user-graduate"></i> Students </a></li>
+                            <li><a href="tutors.php"> <i class="fas fa-chalkboard-teacher"></i> Tutors </a></li>
+                            <li><a href="admins.php"> <i class="fas fa-chalkboard-teacher"></i>
                                 Admins </a></li>
-                            <li><a href="profile.html"> <i class="fa fa-cogs"></i> Profile </a></li>
-                            <li><a href="change-password.html"> <i class="fa fa-key"></i> Change Password
+                            <li><a href="profile.php"> <i class="fa fa-cogs"></i> Profile </a></li>
+                            <li><a href="change-password.php"> <i class="fa fa-key"></i> Change Password
                                 </a></li>
                         </ul>
                     </div>
