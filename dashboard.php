@@ -17,10 +17,11 @@
           transition: all 0.5s;
           box-shadow: 2px 2px 5px rgb(59, 88, 15);
 
-          a {
+        
+        } 
+        .dashboard-menu a {
             color: rgb(135, 201, 37) ;
           }
-        }
     </style>
 </head>
 

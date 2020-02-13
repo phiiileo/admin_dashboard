@@ -6,7 +6,7 @@
                     </div>
                     <div class="sidebar_menu">
                         <ul>
-                            <li class="dashboard-menu"><a href="#"> <i class="fas fa-chart-line"></i> Dashboard </a>
+                            <li class="dashboard-menu"><a href="dashboard.php"> <i class="fas fa-chart-line"></i> Dashboard </a>
                             </li>
                             <li class="students-menu"><a href="students.php"> <i class="fa fa-user-graduate"></i> Students </a></li>
                             <li class="tutors-menu"><a href="tutors.php"> <i class="fas fa-chalkboard-teacher"></i> Tutors </a></li>
