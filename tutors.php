@@ -21,7 +21,12 @@
                 <section class="main_board">
                     <!-- <section>Hello world</section> -->
                     <section class="table">
+                    
                         <h3>Tutors Information</h3>
+                        <p class="control">
+                            <button class="active" id="active">Active Tutors</button>
+                            <button id="deactivated">Deactivated Tutors</button>
+                        </p>
                         <div class="table_container">
                             <table id="table">
                                 <tbody>
@@ -45,5 +50,4 @@
 </body>
 <script src="./js/admins.js"></script>
 <script src="./js/dashboard.js"></script>
-
 </html>

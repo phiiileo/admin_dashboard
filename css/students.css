@@ -307,6 +307,32 @@ body {
   color: #87c925;
 }
 
+.table p.control {
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.table p.control button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 20px;
+  background-color: #87c925;
+  font-size: 16px;
+  padding: 5px 20px;
+  border: 1px solid #87c925;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table p.control button:hover, .table p.control button.active {
+  background-color: transparent;
+  color: #3b580f;
+  -webkit-box-shadow: 2px 2px 5px #87c925;
+          box-shadow: 2px 2px 5px #87c925;
+}
+
 .table .table_container {
   border: 1px solid green;
   overflow-x: scroll;

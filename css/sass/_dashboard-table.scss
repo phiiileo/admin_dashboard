@@ -12,6 +12,26 @@ body {
     padding: 10px 0;
     color: $brand_color;
   }
+  p.control{
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    button{
+        display: inline-flex;
+        margin-left: 20px;
+        background-color: $brand_color;
+        font-size: 16px;
+        padding: 5px 20px;
+        border: 1px solid $brand_color;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover, button.active{
+        background-color: transparent;
+        color: $bg_color;
+        box-shadow: 2px 2px 5px $brand_color;
+    }
+}
   .table_container {
     border: 1px solid green;
     overflow-x: scroll;

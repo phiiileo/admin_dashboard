@@ -53,3 +53,17 @@ students.map((value, index) => {
                 </tr>`;
     table.innerHTML += row
 })
+
+const activeAdmin = document.getElementById("active")
+const deactivatedAdmin = document.getElementById("deactivated")
+//Activate Active admin tab
+activeAdmin.addEventListener("click", function () {
+    this.classList.add("active");
+    deactivatedAdmin.classList.remove("active")
+})
+
+//Activate deactivated admin tab
+deactivatedAdmin.addEventListener("click", function () {
+    this.classList.add("active");
+    activeAdmin.classList.remove("active")
+})

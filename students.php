@@ -22,6 +22,10 @@
                     <!-- <section>Hello world</section> -->
                     <section class="table">
                         <h3>Students Information</h3>
+                        <p class="control">
+                            <button class="active" id="active">Active Students</button>
+                            <button id="deactivated">Deactivated Students</button>
+                        </p>
                         <div class="table_container">
                             <table id="table">
                                 <tbody>

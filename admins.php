@@ -8,7 +8,6 @@
     <title>Admins || Codec.ng</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="css/admins.css">
 
 </head>
@@ -16,13 +15,17 @@
 <body>
     <main>
         <section class="container">
-        <?php include_once "./dashboard-fragments/dashboard_header.php" ?>
+            <?php include_once "./dashboard-fragments/dashboard_header.php" ?>
             <section class="wrapper">
                 <?php include_once "./dashboard-fragments/dashboard_sidebar.php" ?>
                 <section class="main_board">
                     <!-- <section>Hello world</section> -->
                     <section class="table">
                         <h3>Admins Information</h3>
+                        <p class="control">
+                            <button class="active" id="active">Active Admins</button>
+                            <button id="deactivated">Deactivated Admins</button>
+                        </p>
                         <div class="table_container">
                             <table id="table">
                                 <tbody>
@@ -46,5 +49,6 @@
 </body>
 <script src="./js/admins.js"></script>
 <script src="./js/dashboard.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </html>

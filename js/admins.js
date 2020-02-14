@@ -39,6 +39,10 @@ let students = [
     }
 ]
 
+
+let button = `<button class="view-profile">View</button>
+             <button class="remove-profile">Remove</button>`
+
 students.map((value, index) => {
     let row = `<tr>
                     <td>${index + 1}.</td>
@@ -46,8 +50,7 @@ students.map((value, index) => {
                     <td>${value.email}</td>
                     <td>${value.phoneNumber}</td>
                     <td>
-                    <button class="view-profile">View</button>
-                    <button class="remove-profile">Remove</button>
+                    ${button}
                     </td>
                 </tr>`;
     table.innerHTML += row
@@ -55,8 +58,23 @@ students.map((value, index) => {
 
 let view_profile = document.getElementsByClassName("view-profile");
 
-for(let i=0; i<view_profile.length; i++){
+for (let i = 0; i < view_profile.length; i++) {
     view_profile[i].addEventListener("click", () => {
-       window.location.href = "profile.html"
+        window.location.href = "profile.php"
     })
 }
+
+const activeAdmin = document.getElementById("active")
+const deactivatedAdmin = document.getElementById("deactivated")
+
+//Activate Active admin tab
+activeAdmin.addEventListener("click", function () {
+    this.classList.add("active");
+    deactivatedAdmin.classList.remove("active")
+})
+
+//Activate deactivated admin tab
+deactivatedAdmin.addEventListener("click", function () {
+    this.classList.add("active");
+    activeAdmin.classList.remove("active")
+})
