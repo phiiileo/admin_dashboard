@@ -1,9 +1,4 @@
-$brand_color: rgb(135, 201, 37);
-$bg_color: rgb(59, 88, 15);
 
-body {
-  overflow-x: hidden;
-}
 .table {
   overflow-x: scroll;
 
@@ -105,4 +100,14 @@ body {
   .table_container {
     width: 100% !important;
   }
+}
+
+@media screen and (min-width: 1200px){
+    .table_container{
+        width: 80%;
+
+        table{
+            width: 100%;
+        }
+    }
 }

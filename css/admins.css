@@ -275,12 +275,12 @@ body .container .wrapper .main_board .cards_body:hover {
   body .container .wrapper .sidebar {
     position: fixed;
     left: 0;
-    width: 30%;
+    width: 25%;
     padding: 20px;
     z-index: 0;
   }
   body .container .wrapper .main_board {
-    padding-left: 30%;
+    padding: 20px 30px 20px 25%;
   }
   body .container .wrapper .main_board .cards {
     display: -ms-grid;
@@ -291,10 +291,6 @@ body .container .wrapper .main_board .cards_body:hover {
   body .container .wrapper .main_board .cards_body {
     width: 95%;
   }
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .table {
@@ -414,6 +410,15 @@ body {
 @media screen and (min-width: 992px) {
   .table_container {
     width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .table_container {
+    width: 80%;
+  }
+  .table_container table {
+    width: 100%;
   }
 }
 

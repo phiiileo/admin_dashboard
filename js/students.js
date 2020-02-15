@@ -3,7 +3,7 @@ let table = document.getElementById("table");
 let students = [
     {
         id: 1,
-        name: "Brad surge",
+        name: "Braghghghghghghgghghghghd surge Wenfhffhdjfjfjfkhfhfkhh",
         email: "bradffhdgfgfgfhfhfhsurge@gmail.com",
         phoneNumber: "08012345678",
     },
@@ -48,7 +48,7 @@ students.map((value, index) => {
                     <td>
                     <button>Activate</button>
                     <button>Probate</button>
-                    <button>Remove</button>
+                    <button>Deactivate</button>
                     </td>
                 </tr>`;
     table.innerHTML += row
