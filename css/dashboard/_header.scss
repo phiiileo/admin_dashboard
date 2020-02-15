@@ -14,7 +14,7 @@
     font-size: 22px;
     transition: all 0.5s;
   }
-  i:hover {
+  i#menu:hover {
     color: whitesmoke;
   }
   nav {
@@ -24,17 +24,40 @@
     width: 70%;
     justify-content: flex-end;
     padding: 10px;
-
-    img {
-      width: 30px;
-      height: 30px;
-      margin-right: 20px;
-    }
-    i {
-      color: black;
-    }
-    i:hover {
-      color: whitesmoke;
+    a {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      margin: 0 5px;
+      position: relative;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      i {
+        color: black;
+        font-size: 25px;
+      }
+      i:hover {
+        color: whitesmoke;
+      }
+      #notification{
+        color: red;
+        position: absolute;
+        top: 0px;
+        right: 3px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        width: 18px;
+        height: 18px;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-weight: bold;
+      }
     }
   }
 }

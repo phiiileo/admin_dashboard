@@ -47,6 +47,9 @@
             }
           }
         }
+        li:hover, li.active{
+          border: 1px solid $brand_color
+        }
       }
     }
   }

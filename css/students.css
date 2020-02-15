@@ -40,7 +40,7 @@ body .container #header i#menu {
   transition: all 0.5s;
 }
 
-body .container #header i:hover {
+body .container #header i#menu:hover {
   color: whitesmoke;
 }
 
@@ -61,18 +61,56 @@ body .container #header nav {
   padding: 10px;
 }
 
-body .container #header nav img {
+body .container #header nav a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  position: relative;
+}
+
+body .container #header nav a img {
   width: 30px;
   height: 30px;
-  margin-right: 20px;
 }
 
-body .container #header nav i {
+body .container #header nav a i {
   color: black;
+  font-size: 25px;
 }
 
-body .container #header nav i:hover {
+body .container #header nav a i:hover {
   color: whitesmoke;
+}
+
+body .container #header nav a #notification {
+  color: red;
+  position: absolute;
+  top: 0px;
+  right: 3px;
+  background-color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 780px) {
@@ -155,6 +193,10 @@ body .container .wrapper .sidebar_menu ul li a {
 
 body .container .wrapper .sidebar_menu ul li a i {
   padding-right: 15px;
+}
+
+body .container .wrapper .sidebar_menu ul li:hover, body .container .wrapper .sidebar_menu ul li.active {
+  border: 1px solid #87c925;
 }
 
 @media screen and (min-width: 780px) {
@@ -280,7 +322,7 @@ body .container .wrapper .main_board .cards_body:hover {
     z-index: 0;
   }
   body .container .wrapper .main_board {
-    padding: 20px 30px 20px 25%;
+    padding: 20px 30px 20px 27%;
   }
   body .container .wrapper .main_board .cards {
     display: -ms-grid;
