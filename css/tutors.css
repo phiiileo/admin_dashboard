@@ -335,10 +335,6 @@ body .container .wrapper .main_board .cards_body:hover {
   }
 }
 
-.table {
-  overflow-x: scroll;
-}
-
 .table h3 {
   text-align: center;
   padding: 10px 0;
@@ -393,22 +389,6 @@ body .container .wrapper .main_board .cards_body:hover {
 .table .table_container table#table tbody tr th {
   background-color: #87c925;
   color: white;
-}
-
-.table .table_container table#table tbody tr th:nth-of-type(1),
-.table .table_container table#table tbody tr td:nth-of-type(1) {
-  width: 50px;
-  text-align: center;
-}
-
-.table .table_container table#table tbody tr th:nth-of-type(2),
-.table .table_container table#table tbody tr td:nth-of-type(2) {
-  width: 300px;
-}
-
-.table .table_container table#table tbody tr th:nth-of-type(5),
-.table .table_container table#table tbody tr td:nth-of-type(5) {
-  width: 300px;
 }
 
 .table .table_container table#table tbody tr th:nth-of-type(5) button,
