@@ -335,7 +335,7 @@ body .container .wrapper .main_board .cards_body:hover {
   }
 }
 
-li:hover, .dashboard-menu {
+li:hover, .courses-menu {
   border: 1px solid #87c925;
   padding-left: 20px;
   -webkit-transition: all 0.5s;
@@ -344,7 +344,7 @@ li:hover, .dashboard-menu {
           box-shadow: 2px 2px 5px #87c925;
 }
 
-li:hover a, .dashboard-menu a {
+li:hover a, .courses-menu a {
   color: #87c925 !important;
 }
-/*# sourceMappingURL=dashboard.css.map */
+/*# sourceMappingURL=courses.css.map */

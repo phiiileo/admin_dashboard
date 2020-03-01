@@ -27,22 +27,22 @@
                     </section>
                     <section class="cards">
                         <div class="cards_body">
-                            <a href="#"><i class="fa fa-user-graduate"></i></a>
+                            <a href="students.php"><i class="fa fa-user-graduate"></i></a>
                             <span>70</span>
                             <p>Registered Students</p>
                         </div>
                         <div class="cards_body">
-                            <a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+                            <a href="tutors.php"><i class="fas fa-chalkboard-teacher"></i></a>
                             <span>7</span>
                             <p>Registered Tutors</p>
                         </div>
                         <div class="cards_body">
-                            <a href="#"><i class="fab fa-discourse"></i></a>
+                            <a href="courses.php"><i class="fab fa-discourse"></i></a>
                             <span>16</span>
                             <p>Available Courses</p>
                         </div>
                         <div class="cards_body">
-                            <a href="#"><i class="fas fa-users-cog"></i></a>
+                            <a href="admins.php"><i class="fas fa-users-cog"></i></a>
                             <span>3</span>
                             <p>Registered Admins</p>
                         </div>
@@ -54,33 +54,4 @@
     </main>
 </body>
 <script src="./js/dashboard.js"></script>
-<!-- <script>
-    let control = document.getElementById("control");
-    let sidebar = document.getElementById("sidebar");
-    let timeEl = document.getElementById("time");
-
-    //Time update
-    const GetTime = () => {
-        let date = new Date();
-        myTime = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-        timeEl.innerHTML = myTime;
-    };
-    setInterval(GetTime, 100)
-
-    //Click event on sidebar
-    control.addEventListener("click", () => {
-        let moveEl = sidebar.style.left;
-        if (moveEl === "-350px") {
-            sidebar.style.left = 0;
-            control.classList.remove("fa-arrow-right");
-            control.classList.add("fa-arrow-left");
-        } else {
-            sidebar.style.left = "-350px";
-            control.classList.add("fa-arrow-right");
-            control.classList.remove("fa-arrow-left")
-
-        }
-    })
-</script> -->
-
 </html>

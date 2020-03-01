@@ -101,8 +101,8 @@ body .container #header nav a #notification {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -110,7 +110,7 @@ body .container #header nav a #notification {
       -ms-flex-align: center;
           align-items: center;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 @media screen and (min-width: 780px) {
@@ -401,6 +401,7 @@ body .container .wrapper .main_board .cards_body:hover {
   color: white;
   border: 1px solid green;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .table .table_container table#table tbody tr th:nth-of-type(5) button:nth-child(2),
