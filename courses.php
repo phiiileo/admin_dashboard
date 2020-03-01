@@ -15,27 +15,33 @@
 <body>
     <main>
         <section class="container">
-        <?php include_once "./dashboard-fragments/dashboard_header.php" ?>
+        <?php include_once "./dashboard-fragments/dashboard_header.php"?>
             <section class="wrapper">
-                <?php include_once "./dashboard-fragments/dashboard_sidebar.php" ?>
+                <?php include_once "./dashboard-fragments/dashboard_sidebar.php"?>
                 <section class="main_board">
-                  <section class="courses-container">
-                      <article class="course">
+                    <section class="search">
+                        <form action="">
+                           <div class="form-group">
+                            <input type="text" name="search_value" placeholder="Search...">
+                        </div>
+                        </form>
+                    </section>
+                  <section class="courses-container" id="courses-container">
+                      <!-- <article class="course">
                           <badge>1</badge>
                           <img src="./images/image.png" alt="course image">
                           <p class="course_title">Getting Started with HTML 1.0</p>
                           <p>By: <a >Phileo Maner</a></p>
-                      </article>
+                      </article> -->
                   </section>
                 </section>
             </section>
         </section>
-        
+
         </section>
 
     </main>
 </body>
-<script src="./js/students.js"></script>
 <script src="./js/dashboard.js"></script>
 <script src="./js/courses.js"></script>
 
