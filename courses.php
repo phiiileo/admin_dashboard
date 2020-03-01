@@ -19,7 +19,14 @@
             <section class="wrapper">
                 <?php include_once "./dashboard-fragments/dashboard_sidebar.php" ?>
                 <section class="main_board">
-                  
+                  <section class="courses-container">
+                      <article class="course">
+                          <badge>1</badge>
+                          <img src="./images/image.png" alt="course image">
+                          <p class="course_title">Getting Started with HTML 1.0</p>
+                          <p>By: <a >Phileo Maner</a></p>
+                      </article>
+                  </section>
                 </section>
             </section>
         </section>
@@ -30,5 +37,6 @@
 </body>
 <script src="./js/students.js"></script>
 <script src="./js/dashboard.js"></script>
+<script src="./js/courses.js"></script>
 
 </html>
