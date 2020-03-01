@@ -61,6 +61,12 @@ body .container #header nav {
   padding: 10px;
 }
 
+body .container #header nav a#time {
+  margin: 0 auto;
+  font-weight: bolder;
+  width: auto;
+}
+
 body .container #header nav a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -352,7 +358,7 @@ li:hover a,
 
 .search form {
   border: none;
-  padding: 0;
+  padding: 0 20px;
   height: 30px;
 }
 
@@ -397,6 +403,9 @@ li:hover a,
   padding: 10px 10px 30px 10px;
   border: 1px solid #87c925;
   position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 3px grey;
+          box-shadow: 2px 2px 3px grey;
 }
 
 .courses-container .course badge {

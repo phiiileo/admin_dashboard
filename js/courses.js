@@ -1,6 +1,6 @@
 let courses_container = document.getElementById("courses-container")
 
-const Courses = [{
+let Courses = [{
         id: 1,
         title: "Intro To HTML 5",
         aurthor: "Phileo Jae",
@@ -34,14 +34,23 @@ const Courses = [{
     }
 ]
 
+
+//Handle form submit
+let search_form = document.getElementById("search")
+search_form.addEventListener("submit", function (e) {
+   e.preventDefault();
+  let input=  search_form.querySelector("input");
+   console.log(input.value)
+})
+
+//Iterate over courses and display respecive courses
 Courses.map((value, index) => {
     courses_container.innerHTML += getCourse(value, index + 1)
 })
 
 
+//View template
 function getCourse(course, num) {
-    console.log(course)
-
     return (
         `<article class="course">
         <badge>${num}</badge>

@@ -14,7 +14,7 @@ li:hover,
 .search{
     form{
         border: none;
-        padding: 0;
+        padding: 0 20px;
         height: 30px;
         .form-group{
             // border: 1px solid green;
@@ -46,12 +46,15 @@ li:hover,
 .courses-container {
     display: flex;
     flex-wrap: wrap;
+
     .course {
         width: 200px;
         margin: 20px;
         padding:10px 10px 30px 10px;
         border: 1px solid $brand_color;
         position: relative;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px grey;
 
         badge {
             display:flex;

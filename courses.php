@@ -20,19 +20,22 @@
                 <?php include_once "./dashboard-fragments/dashboard_sidebar.php"?>
                 <section class="main_board">
                     <section class="search">
-                        <form action="">
+                        <form action="" id="search">
                            <div class="form-group">
-                            <input type="text" name="search_value" placeholder="Search...">
+                            <input type="text" name="search_value" placeholder="Search..." >
                         </div>
                         </form>
                     </section>
                   <section class="courses-container" id="courses-container">
                       <!-- <article class="course">
-                          <badge>1</badge>
-                          <img src="./images/image.png" alt="course image">
-                          <p class="course_title">Getting Started with HTML 1.0</p>
-                          <p>By: <a >Phileo Maner</a></p>
-                      </article> -->
+                          THIS IS A SAMPLE; ACTUAL DATA IS FROM JS FILE
+                    <badge>${num}</badge>
+                    <img src="./images/image.png" alt="course image">
+                    <p class="course_title">${course.title}</p>
+                    <p>By: <a >${course.aurthor}</a></p>
+                    <a class="likes">likes: ${course.likes}</a>
+                    <a class="subscribers">Sub: ${course.subscribers}</a>
+                    </article> -->
                   </section>
                 </section>
             </section>
