@@ -20,6 +20,6 @@
    _date.innerHTML = `${hour}:${minutes}:${seconds}`
     }
     _getTime()
-    setInterval(_getTime, 500);
+    setInterval(_getTime, 1000);
 
 </script>
