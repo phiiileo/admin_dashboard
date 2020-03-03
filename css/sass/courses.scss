@@ -11,18 +11,20 @@ li:hover,
         color: $brand_color !important;
     }
 }
-.search{
-    form{
+
+.search {
+    form {
         border: none;
         padding: 0 20px;
         height: 30px;
-        .form-group{
+
+        .form-group {
             // border: 1px solid green;
             padding: 0;
             margin: 0;
             height: 100%;
 
-            input{
+            input {
                 height: 100%;
                 width: 100px;
                 margin: 0;
@@ -32,13 +34,16 @@ li:hover,
                 background-color: transparent;
                 transition: all .5s ease-in-out;
                 border: 1px solid $brand_color;
+                cursor:pointer;
             }
-            input:focus{
+
+            input:focus {
                 width: 100%;
             }
         }
     }
-    form:focus{
+
+    form:focus {
         width: 60%;
     }
 }
@@ -50,14 +55,14 @@ li:hover,
     .course {
         width: 200px;
         margin: 20px;
-        padding:10px 10px 30px 10px;
+        padding: 10px 10px 30px 10px;
         border: 1px solid $brand_color;
         position: relative;
         border-radius: 5px;
         box-shadow: 2px 2px 3px grey;
 
         badge {
-            display:flex;
+            display: flex;
             justify-content: center;
             align-items: center;
             width: 30px;
@@ -82,10 +87,12 @@ li:hover,
             font-size: 15px;
             color: $bg_color;
         }
-        p:nth-child(2){
+
+        p:nth-child(2) {
             font-size: 12px;
         }
-        a.likes{
+
+        a.likes {
             position: absolute;
             bottom: 5px;
             right: 5px;
@@ -93,9 +100,30 @@ li:hover,
             font-size: 12px;
             font-weight: bolder;
         }
-        a.subscribers{
+
+        a.subscribers {
             @extend a.likes;
             left: 5px
+        }
+
+        .price {
+            display: flex;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 1px solid $brand_color;
+            background-color: white;
+            color: green;
+            font-weight: bolder;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-120px);
+            margin: 0 auto;
+            box-shadow: 2px 2px 2px $brand_color;
+            transition: all .5s
+        }
+        .price:hover{
+            box-shadow: 5px 5px 5px $brand_color;
         }
     }
 }

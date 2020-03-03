@@ -379,6 +379,7 @@ li:hover a,
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   border: 1px solid #87c925;
+  cursor: pointer;
 }
 
 .search form .form-group input:focus {
@@ -457,5 +458,36 @@ li:hover a,
 
 .courses-container .course a.subscribers {
   left: 5px;
+}
+
+.courses-container .course .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #87c925;
+  background-color: white;
+  color: green;
+  font-weight: bolder;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(-120px);
+          transform: translateY(-120px);
+  margin: 0 auto;
+  -webkit-box-shadow: 2px 2px 2px #87c925;
+          box-shadow: 2px 2px 2px #87c925;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.courses-container .course .price:hover {
+  -webkit-box-shadow: 5px 5px 5px #87c925;
+          box-shadow: 5px 5px 5px #87c925;
 }
 /*# sourceMappingURL=courses.css.map */
