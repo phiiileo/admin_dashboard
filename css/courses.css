@@ -370,20 +370,27 @@ li:hover a,
 
 .search form .form-group input {
   height: 100%;
-  width: 100px;
+  width: 20px;
   margin: 0;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 0px 5px 35px;
   font-size: 15px;
   background-color: transparent;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   border: 1px solid #87c925;
   cursor: pointer;
+  background-image: url(../images/search_icon.png);
+  background-repeat: no-repeat;
+  background-position: 3px 0px;
+  background-size: contain;
+  outline: none;
 }
 
 .search form .form-group input:focus {
   width: 100%;
+  border: none;
+  border-bottom: 1px solid #87c925;
 }
 
 .search form:focus {
@@ -422,6 +429,8 @@ li:hover a,
   width: 30px;
   height: 30px;
   border: 1px solid green;
+  background-color: #3b580f;
+  color: white;
   font-size: 13px;
   font-weight: bolder;
   border-radius: 50%;

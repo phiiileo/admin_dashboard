@@ -26,19 +26,26 @@ li:hover,
 
             input {
                 height: 100%;
-                width: 100px;
+                width: 20px;
                 margin: 0;
                 border-radius: 5px;
-                padding: 5px;
+                padding: 5px 0px 5px 35px;
                 font-size: 15px;
                 background-color: transparent;
                 transition: all .5s ease-in-out;
                 border: 1px solid $brand_color;
-                cursor:pointer;
+                cursor: pointer;
+                background-image: url(../images/search_icon.png);
+                background-repeat: no-repeat;
+                background-position: 3px 0px;
+                background-size: contain;
+                outline: none;
             }
 
             input:focus {
                 width: 100%;
+                border: none;
+                border-bottom: 1px solid $brand_color
             }
         }
     }
@@ -68,6 +75,8 @@ li:hover,
             width: 30px;
             height: 30px;
             border: 1px solid green;
+            background-color: $bg_color;
+            color: white;
             font-size: 13px;
             font-weight: bolder;
             border-radius: 50%;
@@ -122,7 +131,8 @@ li:hover,
             box-shadow: 2px 2px 2px $brand_color;
             transition: all .5s
         }
-        .price:hover{
+
+        .price:hover {
             box-shadow: 5px 5px 5px $brand_color;
         }
     }
