@@ -24,11 +24,12 @@
     width: 70%;
     justify-content: flex-end;
     padding: 10px;
-    a#time{
-      margin: 0 auto;
-      font-weight: bolder;
-      width: auto;
-    }
+    // a#time{
+    //   margin: 0 auto;
+    //   font-weight: bolder;
+    //   width: auto;
+    //   display: block;
+    // }
     a {
       display: inline-flex;
       justify-content: center;
@@ -78,6 +79,11 @@
         i#menu {
           display: none;
         }
+        // nav{
+          // #time{
+          //   display: block !important;
+          // }
+        // }
       }
     }
   }

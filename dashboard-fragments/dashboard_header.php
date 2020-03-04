@@ -2,14 +2,14 @@
     <i class="fa fa-bars" id="menu"></i>
     <h1>Administrator</h1>
     <nav>
-        <a id="time">10:10</a>
+        <!-- <a id="time">10:10</a> -->
         <a href="profile.php"><img src="./images/user.png" alt="dp"></a>
         <a href="#"><i class="fas fa-bell"></i><span id="notification">4</span></a>
         <a href="#"> <i class="fas fa-sign-out-alt"></i></a>
 
     </nav>
 </header>
-<script>
+<!-- <script>
     function _getTime(){
  let myDate = new Date();
     let hour, min, seconds;
@@ -22,4 +22,4 @@
     _getTime()
     setInterval(_getTime, 1000);
 
-</script>
+</script> -->
